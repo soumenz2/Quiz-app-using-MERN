@@ -5,6 +5,7 @@ import axios from "axios";
 import * as Yup from "yup";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import API_BASE_URL from '../../config/config';
 
 const SignUp = ({ setIsSignup }) => {
 
