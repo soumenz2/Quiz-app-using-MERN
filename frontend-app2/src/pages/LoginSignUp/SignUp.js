@@ -37,7 +37,7 @@ const SignUp = ({ setIsSignup }) => {
     onSubmit: async (values) => {
       try {
         await axios
-          .post("http://localhost:3000/api/signup", values)
+          .post(`${API_BASE_URL}/signup`, values)
           .then((res) => {
             console.log("entered sucess part");
             toast.success(res.data.message);
