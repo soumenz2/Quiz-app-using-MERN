@@ -115,7 +115,7 @@ const QuizPage = () => {
           {currentQuestion.questionType !== 'Poll Type' ? (
             <>
               <h2>Congrats! Quiz is completed</h2>
-              <img src="https://s3-alpha-sig.figma.com/img/f47f/6d98/a013b07f931834dfba3cd6ddc9130436?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hqgWGAHO1eoSVRrHiuP4GggRnoZT5~hNNRliyDBS~3Xsjz9uvHvcwBMIAkUjDOvR1X0Sz4IL17PmHvFPEojOw713O3YL~wR7KC6iwNtwC4RTZWwQRnbm10-GEqyFQ5S88k~2Ts6J8HekuikNXTRAQiCZUvQJv7hN19isOMyXlPY6SAp43wmE3a24Am~weZPVSs33iv3ADjGRVWxZdvkNSsu--LyWF4chWOYam18dgGqEjUE0~JoBOO5vraDdoe45YymaUwl88H13Oa-VN2OSR5m2RwrUPwJaHFv19cOgSUx1A2~Ma0SDfG4755t0SnAa69u2lp5RdRuHY1FtGfgToQ__" alt="Trophy" className="trophy-icon" />
+              <img src="https://www.google.com/imgres?q=trophy%20%20image%20link%20free&imgurl=https%3A%2F%2Fimg.freepik.com%2Ffree-vector%2Ftrophy-award-laurel-wreath-composition-with-realistic-image-golden-cup-decorated-with-garland-with-reflection_1284-32301.jpg&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fgolden-trophy&docid=9qAKyIRyDI51lM&tbnid=lwZnwQ_hAd__-M&vet=12ahUKEwiuveP2g8qIAxXfR2wGHUMnCyUQM3oECCMQAA..i&w=509&h=626&hcb=2&ved=2ahUKEwiuveP2g8qIAxXfR2wGHUMnCyUQM3oECCMQAA" alt="Trophy" className="trophy-icon" />
               <p>Your Score is <span className="score">{score}/{quizData.questions.length}</span></p>
             </>
           ) : (
