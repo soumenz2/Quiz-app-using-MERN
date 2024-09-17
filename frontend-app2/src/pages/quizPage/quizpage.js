@@ -115,7 +115,7 @@ const QuizPage = () => {
           {currentQuestion.questionType !== 'Poll Type' ? (
             <>
               <h2>Congrats! Quiz is completed</h2>
-              <img src="https://www.google.com/imgres?q=trophy%20%20image%20link%20free&imgurl=https%3A%2F%2Fimg.freepik.com%2Ffree-vector%2Ftrophy-award-laurel-wreath-composition-with-realistic-image-golden-cup-decorated-with-garland-with-reflection_1284-32301.jpg&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fgolden-trophy&docid=9qAKyIRyDI51lM&tbnid=lwZnwQ_hAd__-M&vet=12ahUKEwiuveP2g8qIAxXfR2wGHUMnCyUQM3oECCMQAA..i&w=509&h=626&hcb=2&ved=2ahUKEwiuveP2g8qIAxXfR2wGHUMnCyUQM3oECCMQAA" alt="Trophy" className="trophy-icon" />
+              <img src="https://plus.unsplash.com/premium_photo-1683141313974-34b132148f5b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dHJvcGh5fGVufDB8fDB8fHww" alt="Trophy" className="trophy-icon" />
               <p>Your Score is <span className="score">{score}/{quizData.questions.length}</span></p>
             </>
           ) : (
